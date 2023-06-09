@@ -81,15 +81,15 @@ export default function Compoeleitor() {
             <form>
                 {/* Labels and inputs for form data */}
                 <label className="label">Name</label>
-                <input onChange={handleName} className="input"
+                <input onChange={handleName} className="input" required
                     value={name} type="text" />
  
                 <label className="label">Email</label>
-                <input onChange={handleEmail} className="input"
+                <input onChange={handleEmail} className="input" required
                     value={email} type="email" />
  
                 <label className="label">Password</label>
-                <input onChange={handlePassword} className="input"
+                <input onChange={handlePassword} className="input" required
                     value={password} type="password" />
  
                 <button onClick={handleSubmit} className="btn"
